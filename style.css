@@ -1,0 +1,46 @@
+*{margin: 0;padding: 0;}
+.fix{overflow: hidden}
+body{font-size: 16px;font-family: arial;line-height: 22px;background: burlywood}
+/*overflow na dile slider a pbm ashe*/
+.main{margin: 0 auto;display: block;width: 960px;background: #fff;padding: 0px 15px 0px 15px}
+/*padding upore bame niche dane*/
+.first-section{height: 209px;background: url(image/Capture.jpg)no-repeat;background-size:cover;
+ width: 960px;background-position:center center;}
+.slider{ margin-top: 153px;margin-left: 624px;};
+
+.slider p{font-size: 15px;color:#FF4A4A ;margin-bottom: 10px}
+.slider h2{font-size: 20px;color:#FF4A4A}
+/*menu*/
+.mainmenu {overflow: hidden;background: #73bcd4;margin-bottom: 10px}
+.mainmenu ul{list-style: none}
+.mainmenu ul li{float: left;border-right: 1px solid grey}
+.mainmenu ul li:last-child{border-right: 0px solid grey}
+.mainmenu ul li a{text-decoration: none;display: block;padding: 10px;}
+/*padding a te na dile full hover background ashe na*/
+.mainmenu ul li a:hover{background:gray;color: white;}
+/*dropdown*/
+.mainmenu ul ul{position: absolute;display: none;width:150px}
+.mainmenu ul ul li{position: relative;float: none;border-bottom: 1px solid grey }
+.mainmenu ul ul li:last-child{border-bottom: 0px solid grey}
+.mainmenu ul ul li a{text-decoration: none;background:#73bcd4}
+.mainmenu ul li:hover>ul{background:gray;color: whitesmoke;display:block; width: 160px}
+.mainmenu ul ul ul{top: 0%;left: 100%;width: 150px}
+.college{text-align: center}
+.college h1{color:#FF4A4A;text-shadow:1px 2px 1px black;font-size: 20px;margin-bottom: 5px}
+.college p{color:#3a3d2e ;margin-bottom: 10px}
+.footer p{width: 960px;
+margin: 0 auto;
+margin-top: 5px;
+}
+.footer p {
+    background:#73bcd4;
+    color: black;
+    font-size: 13px;
+    text-align: center;
+}
+/*image*/
+/*.slider{}
+.image_gp{float: left;width:25%;}
+.image_gp img{height: 150px;width: 150px;}*/
+
+

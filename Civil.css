@@ -1,0 +1,51 @@
+*{margin: 0;padding: 0;}
+.fix{overflow: hidden}
+.body{font-size: 16px;font-family: arial;line-height: 22px; background:gray}
+.main{margin: 0px auto;width: 960px;display: block;background: white;padding: 0px 15px 0px 15px}
+.first-section{background: url(image/civil.jpg)no-repeat; background-size:cover;height: 335px;
+               background-position: center center;
+}
+.slider{ margin-bottom: 0;
+         margin-top: 264px;}
+.slider h2{margin-left: 10px;color: pink;margin-bottom: -10px;}
+.slider p{margin-left: 10px;font-size: 25px;color: skyblue;}
+.mainmenu {overflow: hidden;background:#4AB3BA}
+.mainmenu ul{list-style: none;}
+.mainmenu ul li{float: left;border-right: 1px solid #91a3a4;position: relative}
+.mainmenu ul li:last-child{border-right: 0px solid}
+.mainmenu ul li a{text-decoration: none;display: block;color: black;padding: 10px}
+.mainmenu ul li a:hover{background:white;color: #91a3a4;transition: .6s;}
+
+.mainmenu ul ul{display: none;position: absolute}
+.mainmenu ul ul li{float: none; border-bottom: 1px solid  #91a3a4}
+.mainmenu ul ul li:last-child{border-bottom: 0px solid}
+.mainmenu ul ul li a{text-decoration: none;color: black}
+.mainmenu ul li:hover ul{display: block; background:white;color: #91a3a4;transition: .6s; }
+
+
+.image h2 {color: #ffffff;font-size: 40px;margin-top: 73px;margin-left: 269px;}
+.image{height: 209px;padding: 40px;background: url(image/145.jpg)no-repeat;background-attachment: fixed;background-size: cover;
+       background-position: center center;}
+.clsofcivil{background: url(image/145.jpg)no-repeat;background-attachment: fixed;background-position: center center;
+            background-size: cover}
+.group{width:48%;float: left;text-align: center; color: #f5f5f5;}
+.group h1{color: pink;font-size: 20px;text-shadow:1px 2px 1px;}
+/*dane/upre-nice/hold*/
+.group img{height:35px;width:35px;}
+
+.forth img{margin-top: 15px;height:200px;width: 250px;float:left;width:25%;
+           border-radius: 50%;margin-bottom: 15px;}
+.fourth{background:#1D1864;}
+.forth{overflow: hidden;position: relative;}
+.forth img{width: 100%};
+.overlay{position: absolute;width: 100%;height: 100%;bottom: 0;left: 0;
+         background: rgba(105,105,86,.5);opacity: 0;transition: .4s}
+.fourth:hover .overlay{opacity: 1;transform: scale(1)}
+
+.footer{background:#A85656;text-align: center;color:white;padding: 12px }
+
+
+
+
+
+
